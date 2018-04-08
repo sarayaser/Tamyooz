@@ -4,6 +4,7 @@
  	<title>Profile</title>
  	<link rel="stylesheet" href="css/font-awesome.min.css">
  	<link rel="stylesheet" type="text/css" href="css/profile.css">
+ 	<script type="text/javascript" src="js/jquery.min.js"></script>
  	<meta charset="utf-8">
  </head>
  <body>
@@ -11,7 +12,6 @@
  	<header>
 
  		<img src="images/header.png" id="headerBg">
- 		
  		<div class="logoArea" id="headerLogoArea">
  			<img src="images/logo.png" class="logo" >
  		</div>
@@ -30,7 +30,7 @@
 
  	</header>
 
- 	<!-- <label id="currentHeading">الرئيسية>البيانات الشخصية</label> -->
+ 	<label id="currentHeading"><span>الرئيسية</span>>البيانات الشخصية</label>
 
 
  	<aside id="sideList">
@@ -53,87 +53,89 @@
  		
  		<section id="personalInfo">
  			<h2>معلومات شخصية</h2>
+			<label class="left">Mohamed Mohsen Abd el aal<i class="fa fa-pencil-square-o"></i></label>
 			<label>الاسم بالكامل</label>
-			<label>Mohamed Mohsen Abd el aal</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>الجنسية</label>
-			<label>N/A</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>نوع الهوية</label>
-			<label>N/A</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>رقم الهوية</label>
-			<label>N/A</label>
 			<br>
+			<label class="left">العربية</label>
 			<label>اللغة</label>
-			<label>العربية</label>
 			<br>
 			
  		</section>
 		
+ 		<hr>
+
 		<section id="address">
  			<h2>العنوان</h2>
+			<label class="left">Mohamed Mohsen Abd el aal</label>
 			<label>العنوان 1</label>
-			<label>Mohamed Mohsen Abd el aal</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>العنوان 2</label>
-			<label>N/A</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>المدينة</label>
-			<label>N/A</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>الدولة</label>
-			<label>N/A</label>
 			<br>
+			<label class="left">العربية</label>
 			<label>رقم هاتف ارضي</label>
-			<label>العربية</label>
 			<br>
+			<label class="left">العربية</label>
 			<label>صندوق بريد</label>
-			<label>العربية</label>
 			<br>
 			
  		</section>
-		
+		<hr>
 		<section id="trafficInfo">
  			<h2>معلومات الملف المروري</h2>
+			<label class="left">Mohamed Mohsen Abd el aal</label>
 			<label>البيان المروري</label>
-			<label>Mohamed Mohsen Abd el aal</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>الرمز المروري</label>
-			<label>N/A</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>رقم اللوحة</label>
-			<label>N/A</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>مصدر اللوحة</label>
-			<label>N/A</label>
 			<br>
+			<label class="left">العربية</label>
 			<label>الفئة</label>
-			<label>العربية</label>
 			<br>
+			<label class="left">العربية</label>
 			<label>رقم رخصة القيادة</label>
-			<label>العربية</label>
 			<br>
+			<label class="left">العربية</label>
 			<label>جهة الاصدار</label>
-			<label>العربية</label>
 			<br>
 			
  		</section>
-		
+		<hr>
 		<section id="contactInfo">
  			<h2>معلومات الاتصال</h2>
+			<label class="left">Mohamed Mohsen Abd el aal</label>
 			<label>البريد الالكتروني</label>
-			<label>Mohamed Mohsen Abd el aal</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>الهاتف 1</label>
-			<label>N/A</label>
 			<br>
+			<label class="left">N/A</label>
 			<label>الهاتف 2</label>
-			<label>N/A</label>
 			<br>
 			
  		</section>
-		
+		<hr>
 		<section id="personalDocumnets">
 			<h2>مستندات شخصية</h2>
 			<a href="#">اضغط هنا لإضافة مستندات جديدة</a>
@@ -143,19 +145,22 @@
 	
 
 	<footer>
-		<div class="logoArea" id="footerLogoArea">
+		<img src="images/footer.png">
+	 	<div class="logoArea" id="footerLogoArea">
  			<img src="images/logo.png" class="logo">
  			<label>الحقوق محفوظة<br>&copy; 2018 تميز</label>
  		</div>
+
  		<label>تابعنا على</label>
  		<div id="redRect"></div>
  		<ul>
- 			<li><i class="fa fa-facebook"></i></li>
+ 			<li><i class="fa fa-facebook-square"></i></li>
  			<li><i class="fa fa-twitter"></i></li>
  			<li><i class="fa fa-paper-plane"></i></li>
  		</ul>
-		<img src="images/footer.png">
 	</footer>
+
+	<script type="text/javascript" src="js/profile.js"></script>
 
  </body>
  </html>
