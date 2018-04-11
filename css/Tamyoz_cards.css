@@ -1,7 +1,14 @@
 @font-face{
     font-family:BahijTheSansArabic;
-    src:url("Bahij_TheSansArabic-ExtraBold.woff");
+    src:url("../fonts/Bahij_TheSansArabic-Plain.ttf");
 }
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
 .body{
     background-color:#ffffff;
     font-family: BahijTheSansArabic;
@@ -11,7 +18,7 @@
 }
 .header{
     height: 1300px;
-    background-image:url("Vector%20Smart%20Object%20copy%203.jpg");
+    background-image:url("../images/Vector%20Smart%20Object%20copy%203.jpg");
     background-size: cover;
     position: relative;
 }
@@ -385,7 +392,7 @@ P{
 /*//////////////////////////////////////////////////////////////////////////*/
 .footer{
     height: 653px;
-    background-image: url("Vector%20Smart%20Object.png");
+    background-image: url("../images/Vector%20Smart%20Object.png");
     background-size: cover;   
 }
 .footer .container{

@@ -20,6 +20,11 @@
 	z-index: -1;
 }
 
+#headerLine
+{
+	width:1920px;
+}
+
 .logoArea
 {
 	width: 132px;
