@@ -1,93 +1,6 @@
-<<<<<<< HEAD
-@font-face{
-    font-family:BahijTheSansArabic;
-    src:url("../fonts/Bahij_TheSansArabic-Plain.ttf");
-}
-
-*
-{
-	margin: 0px;
-	padding: 0px;
-}
-
-.body{
-    background-color:#ffffff;
-    font-family: BahijTheSansArabic;
-    width: 1920px;
-    direction: 'rtl';
-    font-family:BahijTheSansArabic;
-}
-.header{
-    height: 1300px;
-    background-image:url("../images/Vector%20Smart%20Object%20copy%203.jpg");
-    background-size: cover;
-    position: relative;
-}
-.container{
-    width: 1220px;
-    margin:auto;
-   /* position: relative;*/
-}
-
-.header .navbar{
-    overflow: hidden;
-    font-size: 18px;
-    font-family: BahijTheSansArabic;
-    color: rgba(255, 255, 255, 0.502);
-}
-.header .navbar ul{
-    list-style:none;
-    padding-left:0;
-}
-.header .navbar ul li{
-    float:left;
-    padding:10px;
-    top: 40px;
-}
-.header .header_middle .container .logo{
-    width: 130px;
-    height: 122px;
-    background-color:#ffffff;
-    position: absolute;
-    float: right;
-    text-align: center;   
-    top: 0px;
-    right: 350px;
-}
-
-.header .header_middle .line{
-    width: 1920px;
-    height: 1px;
-    background-color:#ffffff;
-    position: absolute; 
-    /*left: -85px;*/
-    top: 100px;
-}
-.header .header_middle .container .advertising_numbers{
-    font-size: 24px;
-    font-family: BahijTheSansArabic;
-    font-weight: bold;
-    width:288px;
-    height:62px;
-    background-color:#fa325e;
-    color:#ffffff;
-    text-align: center;
-    /*left: 350px;*/
-    top: 100px;  
-    position: absolute;
-}
-P{
-    display: inline-block;
-}
-.header .slider{
-    position: absolute;
-    top: 260px;
-    right: 350px;
-=======
 @font-face {
 	font-family: BahijTheSansArabic;
 	src: url(../fonts/ArbFONTS-Bahij_TheSansArabic-Bold.ttf);
->>>>>>> c0c606a17552b16617fe8d80bee72799bee656cd
 }
 
 .body {
@@ -521,61 +434,6 @@ P {
 }
 
 /*//////////////////////////////////////////////////////////////////////////*/
-<<<<<<< HEAD
-.footer{
-    height: 653px;
-    background-image: url("../images/Vector%20Smart%20Object.png");
-    background-size: cover;   
-}
-.footer .container{
-    position: relative;
-}
-.footer .plus .container{
-    width: 1220px;
-    height:60px;
-    text-align: center;
-    top:81px;
-    font-size: 24px;
-    font-family: BahijTheSansArabic;
-    color: rgb(76, 68, 183);
-}
-
-.footer .plus .container a{
-    color:#f82b47;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;    
-}
-.footer .Border .container{
-    margin-bottom: 40px;
-    background-color: rgb(219, 219, 216);
-    width: 1220px;
-    height: 1px;    
-}
-.footer .container .logo{
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    width: 183px;
-    height: 181px;
-    text-align: center; 
-    font-size: 24px;
-    font-weight: bold;
-    right: 517px;;
-    left: 517px;
-    bottom: 173px;
-    top:300px;    
-    color: #4c44b7;
-}
-.footer .container .media{
-    color:rgb(255, 255, 255);
-    position: absolute;
-    text-align: center; 
-    font-size: 24px;
-    right: 908px;
-    left: 908px;
-    bottom: 53px;
-}
-=======
 
 .footer {
 	height: 653px;
@@ -636,4 +494,3 @@ P {
 	left: 908px;
 	bottom: 53px;
 }
->>>>>>> c0c606a17552b16617fe8d80bee72799bee656cd

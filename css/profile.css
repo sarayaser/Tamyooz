@@ -64,7 +64,7 @@
 button
 {
 	width: 290px;
-	height: 65px;
+	height: 60px;
 	background-color: #fa325e;
 	color: #fff;
 	font-size: 20.15px;
@@ -72,6 +72,8 @@ button
 	top:100px;
 	left:350px;
 	border: none;
+	border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
 	text-align: center;
 }
 
@@ -203,8 +205,9 @@ footer>img
 	width: 185px;
 	height: 180px;
 	position: relative;
-	bottom: 360px;
-	left: 860px;
+	bottom: 409px;
+	display: block;
+	margin: 0px auto;
 	margin-bottom: -360px;
 }
 
@@ -223,14 +226,7 @@ footer>img
 footer>label, footer>ul
 {
 	font-size: 24px;
-	color: #fff;
-	position: relative;
-	left: 50px;
-}
-
-footer>ul
-{
-	left: 60px;
+	color: #fff;	
 }
 
 footer>ul>li
@@ -255,10 +251,9 @@ i
 	width: 30px;
 	height: 5px;
 	background-color: #fa325e;
+	position: relative;
 	display: block;
 	margin: 13px auto;
-	position: relative;
-	left: 50px;
 }
 
 input[type="submit"]
