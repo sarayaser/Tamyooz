@@ -1,0 +1,324 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family:BahijTheSansArabic;
+    src:url("Bahij_TheSansArabic-ExtraBold.woff");
+}
+body{
+    background-color:#ffffff;
+    width: 1920px;
+    direction: 'rtl';
+    font-family:BahijTheSansArabic;
+    
+}
+.container{
+    width: 1220px;
+    margin:auto;
+}
+#header{
+    height: 1300px;
+    background-image:url("Vector%20Smart%20Object%20copy%203.jpg");
+    background-size: 100% 1676px;
+    position: relative;
+}
+#navbar{
+    overflow: hidden;
+    font-size: 18px;
+    font-family: BahijTheSansArabic;
+    color: rgba(255, 255, 255, 0.502);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#navbar ul{
+    list-style:none;
+    padding-left:0;
+}
+#navbar ul li{
+    float:left;
+    padding:10px;
+    top: 40px;
+}
+hr{
+    box-sizing:content-box;
+    height:1px;
+    overflow:visible;
+    border:0;
+    background-color:#ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+#advertising_numbers{
+    font-size: 24px;
+    font-family: BahijTheSansArabic;
+    font-weight: bold;
+    width:288px;
+    height:62px;
+    background-color:#fa325e;
+    color:#ffffff;
+    text-align: center;
+    border-radius: 6px;
+}
+P{
+    display: inline-block;
+}
+.logo{
+    width: 130px;
+    height: 122px;
+    background-color:#ffffff;
+    position: absolute;
+    float: right;
+    text-align: center;   
+    top: 0px;
+    right: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+#slider{
+    margin-top: 110px;
+    margin-bottom: 140px;
+}
+#slider_footer{
+    text-align: center;
+    color:#ffffff;
+    font-family: BahijTheSansArabic;
+    font-weight: bold;
+}
+#percentage{
+    font-size: 60px;
+    color:#fa325e;
+}
+#p1{
+    font-size: 48px;
+    color:#ffffff;
+    font-family: "Myriad Arabic";   
+}
+#p2{
+    font-size: 30px;
+    font-weight: normal;
+}
+/*////////////////////////////////////////////////////////////////////*/
+#middle{
+    height: 1180px;
+}
+#middle_header{
+    margin-top: 20px;
+    color: #7873c9;
+    font-family: BahijTheSansArabic;
+    font-size: 18px;
+}
+#pr{
+    text-align: right;
+    float: right;
+}
+#pl{
+    text-align: left;
+}
+#CarsNumbers{
+    margin-bottom: 60px;
+    margin-top: 40px;
+    width: 1220px;
+    margin-right: 350px;
+    margin-left: 350px;
+    height:80px;
+    font-size: 18px;
+    font-family: BahijTheSansArabic;
+    color: rgba(76, 68, 183, 0.4);
+    line-height: 1.838;
+    text-align: center;
+    border: 1px solid rgb(128, 128, 128);
+    background-color: rgb(255, 255, 255);
+}
+#CarsNumbers table{
+    border-collapse: collapse;
+    width:1220px;    
+}
+#CarsNumbers table td{
+    /*margin:10px;*/
+    text-align: center;
+    padding: 20px 50px;
+    border-right: 1px solid rgb(128, 128, 128);
+    height: 15px;
+}
+#CarsNumbers table td:hover{
+    color: rgb(76, 68, 183);
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+.bronze{
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.09);
+    width: 1220px;
+    height: 260px;
+    margin-right: 350px;
+    margin-left: 350px;
+    position: relative;
+}
+.price{
+    width: 240px;
+    height: 140px;
+    background-color: rgb(248, 43, 71);
+    float: left;
+    text-align: center;
+    font-size: 31px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 30px 40px 40px 40px;
+}
+.image{
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;    
+}
+#image-cards{
+    font-size: 30px;
+    font-family: Bahij TheSansArabic;
+    color: rgb(76, 68, 183);
+    font-weight: bold;
+}
+.CategoryName{
+    text-align: right;
+    padding-top: 90px;
+    padding-right: 30px;
+    font-size: 31px;
+    font-weight: bold;
+    color: rgb(248, 43, 71);
+}
+.bronze_footer{
+    width: 1220px;
+    height: 120px;
+    background-color: rgb(75, 68, 183);
+    font-size: 24px;
+    font-family: BahijTheSansArabic;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+}
+.bronze_footer table{
+    border-collapse: collapse;
+    width:1220px;
+    height: 120px;
+}
+.bronze_footer table td{
+    border-right: 1px solid rgb(128, 128, 128);
+    text-align: center;
+    padding: 20px;    
+}
+.bronze_footer .link{
+    background-color: rgb(248, 43, 71);  
+    width: 172px;
+    height: 60px;
+    padding-right: 40px;
+    padding-top: 15px;
+    margin-right: 65px;
+}
+.bronze_footer table td a{
+    font-size: 24px;
+    font-family: BahijTheSansArabic;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 40px 65px;
+}
+.border{
+    box-sizing:content-box;
+    height:1px;
+    width: 1220px;
+    overflow:visible;
+    border:0;
+    background-color:#dbdbd8;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-bottom: 40px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+#bronze1{
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+}
+#price1{
+    background-color: #fb95a3;
+}
+#CategoryName1{
+    color: #fb95a3;
+}
+#bronze_footer1{
+    background-color: #a5a1db;
+}
+#link1{
+    background-color: #fb95a3;
+}
+#table1 td{
+    border-right: none;
+}
+#image-cards1{  
+    font-size: 30px;
+    font-family: Bahij TheSansArabic;
+    color:#a5a1db;
+    font-weight: bold;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+.footer .border{
+    margin-top: 40px;
+}
+.footer{
+    height: 653px;
+    background-image: url("Vector%20Smart%20Object.png");
+    background-size: 100% 791px;
+    position: relative;
+}
+.footer .container{
+    /*position: relative;*/
+    position: absolute;
+    
+}
+#plus{
+    width: 1220px;
+    height:60px;
+    text-align: center;
+    top:81px;
+    font-size: 24px;
+    font-family: BahijTheSansArabic;
+    color: rgb(76, 68, 183);
+    margin-left: 520px;
+    margin-right: 520px;
+}
+
+.footer a{
+    color:#f82b47;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;    
+}
+#logo1{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 183px;
+    height: 181px;
+    text-align: center; 
+    font-size: 24px;
+    font-weight: bold;
+    right: 50%;
+    left: 50%;
+    bottom: 0px;
+    top:70px;
+    color: #4c44b7;
+    margin: 100px;   
+}
+#media{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    text-align: center; 
+    font-size: 24px;
+    right: 50%;
+    left: 50%;  
+    /*top: 485px;*/
+    padding-top: 370px;
+    margin-bottom: 0px;  
+}
