@@ -274,9 +274,7 @@ P{
     position: relative;
 }
 .footer .container{
-    /*position: relative;*/
-    position: absolute;
-    
+    position: absolute;    
 }
 #plus{
     width: 1220px;
@@ -286,8 +284,8 @@ P{
     font-size: 24px;
     font-family: BahijTheSansArabic;
     color: rgb(76, 68, 183);
-    margin-left: 520px;
-    margin-right: 520px;
+    margin-left: 370px;
+    margin-right: 670px;
 }
 
 .footer a{
@@ -297,28 +295,27 @@ P{
     text-decoration: none;    
 }
 #logo1{
-    position: absolute;
+   position: absolute;
     background-color: rgb(255, 255, 255);
     width: 183px;
-    height: 181px;
+    height: 160px;
     text-align: center; 
     font-size: 24px;
     font-weight: bold;
-    right: 50%;
-    left: 50%;
-    bottom: 0px;
-    top:70px;
+    right: 35%;
+    left: 65%;
+    bottom: -470px;
     color: #4c44b7;
-    margin: 100px;   
+    margin: 100px;
+    padding-bottom: 0px;   
 }
 #media{
     color:rgb(255, 255, 255);
     position: absolute;
     text-align: center; 
     font-size: 24px;
-    right: 50%;
-    left: 50%;  
-    /*top: 485px;*/
-    padding-top: 370px;
-    margin-bottom: 0px;  
+    right: 51%;
+    left: 49%;  
+    padding-top: 390px;
+    margin-bottom: 0px; 
 }
