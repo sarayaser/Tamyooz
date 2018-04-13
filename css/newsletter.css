@@ -2,25 +2,37 @@
 @font-face {
   
   font-family: ar;
-  src:url(Bahij_TheSansArabic-Plain.ttf)
+  src:url(../fonts/Bahij_TheSansArabic-Plain.ttf)
 
+}
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body>*
+{
+	display: block;
+	margin: 0px auto;
 }
 
 .thanks{
 
 	color: white;
 	font-size: 48px;
+	margin-top: 60px;
 	margin-left: 150px;
 	margin-right: 150px;
-	 font-family: ar;
+	font-family: ar;
 }
 
 #img1{
 	width: 450px;
-	height:236px;
-	margin-left: 75px;
-	padding-top: 64px;
-	
+	height:205px;
+	margin-top: 60px;
+	margin-left: 75px;	
 }
 
 .div{
@@ -28,10 +40,7 @@
 	background-color: rgb( 75, 68, 183 );
 	width: 600px;
 	height: 628px;
-	margin-left: 300px;
-	margin-top: -10px;
-
-
+	text-align: center;
 }
 
 
@@ -56,35 +65,36 @@
 	margin-left: 20px;
 }
 
-
-
-#t{
-	margin-left: 260px;
-	margin-top: -50px;
-
-
-}
 .p{
 	color: rgb( 193, 193, 193 );
 	font-family: ar;
-	
-	
+	font-size: 24px;
+	line-height: 35px;
 }
 #pa{
-	padding-top:35px;
 	width: 600px;
-	height: 300px;
-	margin-left: 300px;	
-	text-align: center;
+	height: 390px;
+	text-align: justify;
+	text-align-last: justify;
+	margin-top: 80px;
+}
+
+#pa>*
+{
+	margin: 85px 75px;
+}
+
+.textLine
+{
+	line-height: 45px;
 }
 
 
 #under{
 
 	height: 158px;
-	margin-top: 0px;
 	text-align: center;
-	color: red;
+	font-size: 24px;
 }
 
 #ta{
@@ -100,7 +110,6 @@
 	height: 0px;
 	width:15px;
 	border-bottom:hidden; 
-	margin-top:-10px;
 }
 
 #social
