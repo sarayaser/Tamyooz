@@ -1,356 +1,453 @@
-*
-{
-    margin: 0px;
-    padding: 0px;
-}
-@font-face{
-    font-family:BahijTheSansArabic;
-    src:url("../fonts/Bahij_TheSansArabic-Plain.ttf");
-}
-body{
-    background-color:#ffffff;
-    width: 1920px;
-    direction: 'rtl';
-    font-family:BahijTheSansArabic;
-    
-}
-.container{
-    width: 1220px;
-    margin:auto;
-}
-#header{
-    height: 1300px;
-    background-image:url("../images/Vector Smart Object copy 3.jpg");
-    background-size: 100% 1676px;
-    position: relative;
-}
-#navbar{
-    overflow: hidden;
-    font-size: 18px;
-    font-family: BahijTheSansArabic;
-    color: rgba(255, 255, 255, 0.502);
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-#navbar ul{
-    list-style:none;
-    padding-left:0;
-}
-#navbar ul li{
-    float:left;
-    padding:10px;
-    top: 40px;
-}
-hr{
-    box-sizing:content-box;
-    height:1px;
-    overflow:visible;
-    border:0;
-    background-color:#ffffff;
-    margin: 0px;
-    padding: 0px;
-}
-#advertising_numbers{
-    font-size: 24px;
-    font-family: BahijTheSansArabic;
-    font-weight: bold;
-    width:288px;
-    height:62px;
-    background-color:#fa325e;
-    color:#ffffff;
-    text-align: center;
-    border-radius: 6px;
-}
-#btnIcon
-{
-    width: 35px;
-    height: 20px;
-    float: right;
-    margin-right: 20px;
-    margin-top: 7px;
-}
-p{
-    display: inline-block;
-}
-#header_middle
-{
-    position: relative;
-    top:-28px;
-    z-index: 5;
-}
-.logo{
-    width: 130px;
-    height: 122px;
-    background-color:#ffffff;
-    position: absolute;
-    float: right;
-    text-align: center;   
-    top: 0px;
-    right: 350px;
-    border-radius: 8px;
-    z-index: 100;
-    
-}
-.logo>img
-{
-    width: 83px;
-    height: 83px;
-    margin:20px 25px 25px;
-    z-index: 100;
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
-#slider{
-    margin-top: 110px;
-    margin-bottom: 140px;
+@font-face {
+	font-family: BahijTheSansArabic;
+	src: url("../fonts/Bahij_TheSansArabic-Plain.ttf");
 }
-#slider_footer{
-    text-align: center;
-    color:#ffffff;
-    font-family: BahijTheSansArabic;
-    font-weight: bold;
+
+body {
+	background-color: #ffffff;
+	width: 1920px;
+	direction: 'rtl';
+	font-family: BahijTheSansArabic;
+
 }
-#percentage{
-    font-size: 60px;
-    color:#fa325e;
+
+.container {
+	width: 1220px;
+	margin: auto;
 }
-#p1{
-    font-size: 48px;
-    color:#ffffff;
-    font-family: BahijTheSansArabic;   
+
+#header {
+	height: 1300px;
+	background-image: url("../images/Vector Smart Object copy 3.jpg");
+	background-size: 100% 1676px;
+	position: relative;
 }
-#p2{
-    font-size: 30px;
-    font-weight: normal;
+
+#navbar {
+	overflow: hidden;
+	font-size: 18px;
+	font-family: BahijTheSansArabic;
+	color: rgba(255, 255, 255, 0.502);
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
+
+#navbar ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+#navbar ul li {
+	float: left;
+	padding: 10px;
+	top: 40px;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 1px;
+	overflow: visible;
+	border: 0;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+#advertising_numbers {
+	font-size: 24px;
+	font-family: BahijTheSansArabic;
+	font-weight: bold;
+	width: 288px;
+	height: 62px;
+	background-color: #fa325e;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 6px;
+}
+
+#btnIcon {
+	width: 35px;
+	height: 20px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 7px;
+}
+
+p {
+	display: inline-block;
+}
+
+#header_middle {
+	position: relative;
+	top: -28px;
+	z-index: 5;
+}
+
+.logo {
+	width: 130px;
+	height: 122px;
+	background-color: #ffffff;
+	position: absolute;
+	float: right;
+	text-align: center;
+	top: 0px;
+	right: 350px;
+	border-radius: 8px;
+	z-index: 100;
+
+}
+
+.logo > img {
+	width: 83px;
+	height: 83px;
+	margin: 20px 25px 25px;
+	z-index: 100;
+}
+
+#slider {
+	margin-top: 110px;
+	margin-bottom: 140px;
+}
+
+#slider_footer {
+	text-align: center;
+	color: #ffffff;
+	font-family: BahijTheSansArabic;
+	font-weight: bold;
+}
+
+#percentage {
+	font-size: 60px;
+	color: #fa325e;
+}
+
+#p1 {
+	font-size: 48px;
+	color: #ffffff;
+	font-family: BahijTheSansArabic;
+}
+
+#p2 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
 /*////////////////////////////////////////////////////////////////////*/
-#middle{
-    height: 1180px;
-}
-#middle_header{
-    margin-top: 20px;
-    color: #7873c9;
-    font-family: BahijTheSansArabic;
-    font-size: 18px;
-}
-#pr{
-    text-align: right;
-    float: right;
-}
-#pl{
-    text-align: left;
-}
-#CarsNumbers{
-    margin-bottom: 60px;
-    margin-top: 40px;
-    width: 1220px;
-    margin-right: 350px;
-    margin-left: 350px;
-    height:80px;
-    font-size: 18px;
-    font-family: BahijTheSansArabic;
-    color: rgba(76, 68, 183, 0.4);
-    line-height: 1.838;
-    text-align: center;
-    border: 1px solid #e6e6e6;
-    background-color: rgb(255, 255, 255);
-}
-#CarsNumbers table{
-    border-collapse: collapse;
-    width:1220px;    
-}
-#CarsNumbers table td{
-    text-align: center;
-    position: relative;
-    height: 80px;
-    width: 240px;
-    font-size: 18px;
+
+#middle {
+	height: 1180px;
 }
 
-.cell:after
-{
-    content : "";
-    position: absolute;
-    right    : 0;
-    top  : 30;
-    width  : 2px;
-    height   : 20px;
-    background: #e6e6e6;
+#middle_header {
+	margin-top: 20px;
+	color: #7873c9;
+	font-family: BahijTheSansArabic;
+	font-size: 18px;
 }
 
-#CarsNumbers table td:hover{
-    color: rgb(76, 68, 183);
+#pr {
+	text-align: right;
+	float: right;
 }
+
+#pl {
+	text-align: left;
+}
+
+#CarsNumbers {
+	margin-bottom: 60px;
+	margin-top: 40px;
+	width: 1220px;
+	margin-right: 350px;
+	margin-left: 350px;
+	height: 80px;
+	font-size: 18px;
+	font-family: BahijTheSansArabic;
+	color: rgba(76, 68, 183, 0.4);
+	line-height: 1.838;
+	text-align: center;
+	border: 1px solid #e6e6e6;
+	background-color: rgb(255, 255, 255);
+}
+
+#CarsNumbers table {
+	border-collapse: collapse;
+	width: 1220px;
+}
+
+#CarsNumbers table td {
+	text-align: center;
+	position: relative;
+	height: 80px;
+	width: 240px;
+	font-size: 18px;
+}
+
+.cell:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 30;
+	width: 2px;
+	height: 20px;
+	background: #e6e6e6;
+}
+
+#CarsNumbers table td:hover {
+	color: rgb(76, 68, 183);
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////*/
-.bronze{
-    margin-bottom: 40px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.09);
-    width: 1220px;
-    height: 260px;
-    margin-right: 350px;
-    margin-left: 350px;
-    position: relative;
+
+.bronze {
+	margin-bottom: 40px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.09);
+	width: 1220px;
+	height: 260px;
+	margin-right: 350px;
+	margin-left: 350px;
+	position: relative;
 }
-.price{
-    /*width: 240px;
+
+.price {
+	/*width: 240px;
     height: 140px;*/
-    width: 160px;
-    height: 70px;
-    background-color: rgb(248, 43, 71);
-    float: left;
-    text-align: center;
-    font-size: 24px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    padding: 30px 40px 40px 40px;
-}
-.image{
-    float: right;
-    padding-top: 20px;
-    padding-right: 30px;    
-}
-#image-cards{
-    font-size: 30px;
-    font-family: BahijTheSansArabic;
-    color: rgb(76, 68, 183);
-    font-weight: bold;
-}
-.CategoryName{
-    text-align: right;
-    padding-top: 90px;
-    padding-right: 30px;
-    font-size: 31px;
-    font-weight: bold;
-    color: rgb(248, 43, 71);
-}
-.bronze_footer{
-    width: 1220px;
-    height: 120px;
-    background-color: rgb(75, 68, 183);
-    font-size: 24px;
-    font-family: BahijTheSansArabic;
-    color: rgb(255, 255, 255);
-    /*font-weight: bold;*/
-    position: absolute;
-    bottom: 0px;
-}
-.bronze_footer table{
-    border-collapse: collapse;
-    width:1220px;
-    height: 120px;
-}
-.bronze_footer table td{
-    border-right: 1px solid rgb(128, 128, 128);
-    text-align: center;
-}
-.bronze_footer .link{
-    background-color: rgb(248, 43, 71);  
-    width: 132px;
-    height: 45px;
-    padding-right: 40px;
-    padding-top: 15px;
-    margin-right: 65px;
-}
-.bronze_footer table td a{
-    font-size: 24px;
-    font-family: BahijTheSansArabic;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-decoration: none;
-    padding: 40px 65px;
-}
-.border{
-    box-sizing:content-box;
-    height:1px;
-    width: 1220px;
-    overflow:visible;
-    border:0;
-    background-color:#dbdbd8;
-    margin: 0px;
-    padding: 0px;
-    margin-right: 350px;
-    margin-left: 350px;
-    margin-bottom: 40px;
-}
-/*/////////////////////////////////////////////////////////////////////////////////////////*/
-#bronze1{
-    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.09);
-    background-color: #ffffff;
-}
-#price1{
-    background-color: #fb95a3;
-}
-#CategoryName1{
-    color: #fb95a3;
-}
-#bronze_footer1{
-    background-color: #a5a1db;
-}
-#link1{
-    background-color: #fb95a3;
-}
-#table1 td{
-    border-right: none;
-}
-#image-cards1{  
-    font-size: 30px;
-    font-family: BahijTheSansArabic;
-    color:#a5a1db;
-    font-weight: bold;
-}
-/*//////////////////////////////////////////////////////////////////////////////////////////*/
-.footer .border{
-    margin-top: 40px;
-}
-.footer{
-    height: 653px;
-    background-image: url("../images/Vector%20Smart%20Object.png");
-    background-size: 100% 791px;
-    position: relative;
-}
-.footer .container{
-    position: absolute;    
-}
-#plus{
-    width: 1220px;
-    height:60px;
-    text-align: center;
-    top:81px;
-    font-size: 24px;
-    font-family: BahijTheSansArabic;
-    color: rgb(76, 68, 183);
-    margin-left: 370px;
-    margin-right: 670px;
+	width: 160px;
+	height: 70px;
+	background-color: rgb(248, 43, 71);
+	float: left;
+	text-align: center;
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	padding: 30px 40px 40px 40px;
 }
 
-.footer a{
-    color:#f82b47;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;    
+.image {
+	float: right;
+	padding-top: 20px;
+	padding-right: 30px;
 }
-#logo1{
-   position: absolute;
-    background-color: rgb(255, 255, 255);
-    width: 183px;
-    height: 160px;
-    text-align: center; 
-    font-size: 24px;
-    font-weight: bold;
-    right: 35%;
-    left: 65%;
-    bottom: -470px;
-    color: #4c44b7;
-    margin: 100px;
-    padding-bottom: 0px;   
+
+#image-cards {
+	font-size: 30px;
+	font-family: BahijTheSansArabic;
+	color: rgb(76, 68, 183);
+	font-weight: bold;
 }
-#media{
-    color:rgb(255, 255, 255);
-    position: absolute;
-    text-align: center; 
-    font-size: 24px;
-    right: 51%;
-    left: 49%;  
-    padding-top: 390px;
-    margin-bottom: 0px; 
+
+.CategoryName {
+	text-align: right;
+	padding-top: 90px;
+	padding-right: 30px;
+	font-size: 31px;
+	font-weight: bold;
+	color: rgb(248, 43, 71);
+}
+
+.bronze_footer {
+	width: 1220px;
+	height: 120px;
+	background-color: rgb(75, 68, 183);
+	font-size: 24px;
+	font-family: BahijTheSansArabic;
+	color: rgb(255, 255, 255);
+	/*font-weight: bold;*/
+	position: absolute;
+	bottom: 0px;
+}
+
+.bronze_footer table {
+	border-collapse: collapse;
+	width: 1220px;
+	height: 120px;
+}
+
+.bronze_footer table td {
+	border-right: 1px solid rgb(128, 128, 128);
+	text-align: center;
+}
+
+.bronze_footer .link {
+	background-color: rgb(248, 43, 71);
+	width: 132px;
+	height: 45px;
+	padding-right: 40px;
+	padding-top: 15px;
+	margin-right: 65px;
+}
+
+.bronze_footer table td a {
+	font-size: 24px;
+	font-family: BahijTheSansArabic;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-decoration: none;
+	padding: 40px 65px;
+}
+
+.border {
+	box-sizing: content-box;
+	height: 1px;
+	width: 1220px;
+	overflow: visible;
+	border: 0;
+	background-color: #dbdbd8;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 350px;
+	margin-left: 350px;
+	margin-bottom: 40px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+#bronze1 {
+	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.09);
+	background-color: #ffffff;
+}
+
+#price1 {
+	background-color: #fb95a3;
+}
+
+#CategoryName1 {
+	color: #fb95a3;
+}
+
+#bronze_footer1 {
+	background-color: #a5a1db;
+}
+
+#link1 {
+	background-color: #fb95a3;
+}
+
+#table1 td {
+	border-right: none;
+}
+
+#image-cards1 {
+	font-size: 30px;
+	font-family: BahijTheSansArabic;
+	color: #a5a1db;
+	font-weight: bold;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+.footer .border {
+	margin-top: 40px;
+}
+
+.footer {
+	height: 653px;
+	background-image: url("../images/intro-blogdetails/footer2.JPG");
+	background-size: 100% 791px;
+	position: relative;
+}
+
+.footer .container {
+	position: absolute;
+	margin-top:
+}
+
+#plus {
+	width: 1220px;
+	height: 60px;
+	text-align: center;
+	top: 81px;
+	font-size: 24px;
+	font-family: BahijTheSansArabic;
+	color: rgb(76, 68, 183);
+	margin-left: 370px;
+	margin-right: 670px;
+}
+
+.footer a {
+	color: #f82b47;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+.logoArea {}
+
+#footerLogoArea {
+	width: 186px;
+	height: 187px;
+	display: block;
+	margin-left: 850px;
+	position: relative;
+	top: 92px;
+	background-color: white;
+	border-radius: 8px;
+}
+
+#footerLogoArea > .footerlogo {
+	position: relative;
+	width: 87px;
+	height: 85px;
+	margin: 18px 45px;
+}
+
+
+.al7kokTiltel {
+	font-size: 18px;
+	font-family: "BahijTheSansArabic";
+	color: rgb( 76, 68, 183);
+	font-weight: bold;
+	text-align: center;
+	margin-top: -10px;
+}
+
+.tab3naTitel {
+	font-size: 24px;
+	font-family: "BahijTheSansArabic";
+	line-height: 1.378;
+	text-align: left;
+	color: white;
+	margin-left: 895px;
+	margin-top: 145px;
+}
+
+.line3 {
+	position: relative;
+	width: 29px;
+	height: 3px;
+	background-color: #fa325e;
+	margin-top: 10px;
+	margin-left: 940px;
+	border: none;
+}
+
+/* footer Icons style*/
+
+.icons {
+	position: absolute;
+	margin: 0 auto;
+	width: 200px;
+	margin-left: 900px;
+	font-family: FontAwesome;
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+}
+
+ul > li {
+	margin-top: 10px;
+	font-size: 24px;
+	position: relative;
+	color: #fff;
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 20px;
+	font-family: FontAwesome;
 }
