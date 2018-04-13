@@ -192,8 +192,7 @@ p{
     position: relative;
 }
 .price{
-    /*width: 240px;
-    height: 140px;*/
+
     width: 160px;
     height: 70px;
     background-color: rgb(248, 43, 71);
@@ -230,7 +229,6 @@ p{
     font-size: 24px;
     font-family: BahijTheSansArabic;
     color: rgb(255, 255, 255);
-    /*font-weight: bold;*/
     position: absolute;
     bottom: 0px;
 }
@@ -245,11 +243,11 @@ p{
 }
 .bronze_footer .link{
     background-color: rgb(248, 43, 71);  
-    width: 132px;
+    width: 170px;
     height: 45px;
-    padding-right: 40px;
     padding-top: 15px;
-    margin-right: 65px;
+    margin: 30px 35px;
+    text-align: center;
 }
 .bronze_footer table td a{
     font-size: 24px;
@@ -257,7 +255,6 @@ p{
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
-    padding: 40px 65px;
 }
 .border{
     box-sizing:content-box;
@@ -298,6 +295,12 @@ p{
     color:#a5a1db;
     font-weight: bold;
 }
+.bronze_footer table td.wideCell
+{
+    text-align: right;    
+    padding-right: 25px;
+}
+
 /*//////////////////////////////////////////////////////////////////////////////////////////*/
 .footer .border{
     margin-top: 40px;
