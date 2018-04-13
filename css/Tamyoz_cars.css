@@ -26,6 +26,7 @@ body {
 	background-image: url("../images/Vector Smart Object copy 3.jpg");
 	background-size: 100% 1676px;
 	position: relative;
+
 }
 
 #navbar {
@@ -40,13 +41,14 @@ body {
 #navbar ul {
 	list-style: none;
 	padding-left: 0;
+	
 }
 
 #navbar ul li {
 	float: left;
 	padding: 10px;
-	top: 40px;
 }
+
 
 hr {
 	box-sizing: content-box;
@@ -56,6 +58,15 @@ hr {
 	background-color: #ffffff;
 	margin: 0px;
 	padding: 0px;
+}
+
+.line1{
+	
+	background-color: rgb( 255, 255, 255);
+	position: absolute;
+	width: 1920px;
+	height: 2px;
+	z-index: 116;
 }
 
 #advertising_numbers {
@@ -204,6 +215,7 @@ p {
 
 /*/////////////////////////////////////////////////////////////////////////////////////////*/
 
+
 .bronze {
 	margin-bottom: 40px;
 	background-color: rgb(255, 255, 255);
@@ -240,6 +252,95 @@ p {
 	font-family: BahijTheSansArabic;
 	color: rgb(76, 68, 183);
 	font-weight: bold;
+}
+.bronze{
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.09);
+    width: 1220px;
+    height: 260px;
+    margin-right: 350px;
+    margin-left: 350px;
+    position: relative;
+}
+.price{
+
+    width: 160px;
+    height: 70px;
+    background-color: rgb(248, 43, 71);
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 30px 40px 40px 40px;
+}
+.image{
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;    
+}
+#image-cards{
+    font-size: 30px;
+    font-family: BahijTheSansArabic;
+    color: rgb(76, 68, 183);
+    font-weight: bold;
+}
+.CategoryName{
+    text-align: right;
+    padding-top: 90px;
+    padding-right: 30px;
+    font-size: 31px;
+    font-weight: bold;
+    color: rgb(248, 43, 71);
+}
+.bronze_footer{
+    width: 1220px;
+    height: 120px;
+    background-color: rgb(75, 68, 183);
+    font-size: 24px;
+    font-family: BahijTheSansArabic;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+}
+.bronze_footer table{
+    border-collapse: collapse;
+    width:1220px;
+    height: 120px;
+}
+.bronze_footer table td{
+    border-right: 1px solid rgb(128, 128, 128);
+    text-align: center;
+}
+.bronze_footer .link{
+    background-color: rgb(248, 43, 71);  
+    width: 170px;
+    height: 45px;
+    padding-top: 15px;
+    margin: 30px 35px;
+    text-align: center;
+}
+.bronze_footer table td a{
+    font-size: 24px;
+    font-family: BahijTheSansArabic;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+.border{
+    box-sizing:content-box;
+    height:1px;
+    width: 1220px;
+    overflow:visible;
+    border:0;
+    background-color:#dbdbd8;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-bottom: 40px;
+>>>>>>> 899d5fb6018d3b15a112367dee2bc8702e98b40c
 }
 
 .CategoryName {
@@ -339,6 +440,12 @@ p {
 	color: #a5a1db;
 	font-weight: bold;
 }
+.bronze_footer table td.wideCell
+{
+    text-align: right;    
+    padding-right: 25px;
+}
+>>>>>>> 899d5fb6018d3b15a112367dee2bc8702e98b40c
 
 /*//////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -386,7 +493,7 @@ p {
 	display: block;
 	margin-left: 850px;
 	position: relative;
-	top: 92px;
+	top: 130px;
 	background-color: white;
 	border-radius: 8px;
 }
@@ -415,7 +522,7 @@ p {
 	text-align: left;
 	color: white;
 	margin-left: 895px;
-	margin-top: 145px;
+	margin-top: 170px;
 }
 
 .line3 {
