@@ -5,7 +5,7 @@
 }
 @font-face{
     font-family:BahijTheSansArabic;
-    src:url("Bahij_TheSansArabic-ExtraBold.woff");
+    src:url("../fonts/Bahij_TheSansArabic-Plain.ttf");
 }
 body{
     background-color:#ffffff;
@@ -20,7 +20,7 @@ body{
 }
 #header{
     height: 1300px;
-    background-image:url("Vector%20Smart%20Object%20copy%203.jpg");
+    background-image:url("../images/Vector Smart Object copy 3.jpg");
     background-size: 100% 1676px;
     position: relative;
 }
@@ -61,8 +61,22 @@ hr{
     text-align: center;
     border-radius: 6px;
 }
-P{
+#btnIcon
+{
+    width: 35px;
+    height: 20px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+p{
     display: inline-block;
+}
+#header_middle
+{
+    position: relative;
+    top:-28px;
+    z-index: 5;
 }
 .logo{
     width: 130px;
@@ -73,10 +87,18 @@ P{
     text-align: center;   
     top: 0px;
     right: 350px;
-    padding: 20px;
     border-radius: 8px;
+    z-index: 100;
     
 }
+.logo>img
+{
+    width: 83px;
+    height: 83px;
+    margin:20px 25px 25px;
+    z-index: 100;
+}
+
 #slider{
     margin-top: 110px;
     margin-bottom: 140px;
@@ -94,7 +116,7 @@ P{
 #p1{
     font-size: 48px;
     color:#ffffff;
-    font-family: "Myriad Arabic";   
+    font-family: BahijTheSansArabic;   
 }
 #p2{
     font-size: 30px;
@@ -129,7 +151,7 @@ P{
     color: rgba(76, 68, 183, 0.4);
     line-height: 1.838;
     text-align: center;
-    border: 1px solid rgb(128, 128, 128);
+    border: 1px solid #e6e6e6;
     background-color: rgb(255, 255, 255);
 }
 #CarsNumbers table{
@@ -137,12 +159,24 @@ P{
     width:1220px;    
 }
 #CarsNumbers table td{
-    /*margin:10px;*/
     text-align: center;
-    padding: 20px 50px;
-    border-right: 1px solid rgb(128, 128, 128);
-    height: 15px;
+    position: relative;
+    height: 80px;
+    width: 240px;
+    font-size: 18px;
 }
+
+.cell:after
+{
+    content : "";
+    position: absolute;
+    right    : 0;
+    top  : 30;
+    width  : 2px;
+    height   : 20px;
+    background: #e6e6e6;
+}
+
 #CarsNumbers table td:hover{
     color: rgb(76, 68, 183);
 }
@@ -158,12 +192,14 @@ P{
     position: relative;
 }
 .price{
-    width: 240px;
-    height: 140px;
+    /*width: 240px;
+    height: 140px;*/
+    width: 160px;
+    height: 70px;
     background-color: rgb(248, 43, 71);
     float: left;
     text-align: center;
-    font-size: 31px;
+    font-size: 24px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     padding: 30px 40px 40px 40px;
@@ -175,7 +211,7 @@ P{
 }
 #image-cards{
     font-size: 30px;
-    font-family: Bahij TheSansArabic;
+    font-family: BahijTheSansArabic;
     color: rgb(76, 68, 183);
     font-weight: bold;
 }
@@ -194,7 +230,7 @@ P{
     font-size: 24px;
     font-family: BahijTheSansArabic;
     color: rgb(255, 255, 255);
-    font-weight: bold;
+    /*font-weight: bold;*/
     position: absolute;
     bottom: 0px;
 }
@@ -206,12 +242,11 @@ P{
 .bronze_footer table td{
     border-right: 1px solid rgb(128, 128, 128);
     text-align: center;
-    padding: 20px;    
 }
 .bronze_footer .link{
     background-color: rgb(248, 43, 71);  
-    width: 172px;
-    height: 60px;
+    width: 132px;
+    height: 45px;
     padding-right: 40px;
     padding-top: 15px;
     margin-right: 65px;
@@ -259,7 +294,7 @@ P{
 }
 #image-cards1{  
     font-size: 30px;
-    font-family: Bahij TheSansArabic;
+    font-family: BahijTheSansArabic;
     color:#a5a1db;
     font-weight: bold;
 }
@@ -269,7 +304,7 @@ P{
 }
 .footer{
     height: 653px;
-    background-image: url("Vector%20Smart%20Object.png");
+    background-image: url("../images/Vector%20Smart%20Object.png");
     background-size: 100% 791px;
     position: relative;
 }

@@ -16,6 +16,13 @@
 	src: url(../fonts/ArbFONTS-Bahij_TheSansArabic-Bold.ttf);
 }
 
+@font-face{
+
+  font-family: "BahijTheSansArabicPlain";
+  src:url(Bahij_TheSansArabic-Plain.ttf)
+
+}
+
 /*1)	header backroung img*/
 
 #background-header-Img {
@@ -67,7 +74,7 @@ hr {
 	position: relative;
 	width: 500px;
 	font-size: 18px;
-	font-family: "BahijTheSansArabic";
+	font-family: "BahijTheSansArabicPlain";
 	left: 260.937px;
 	top: -110px;
 
@@ -120,7 +127,7 @@ li a:hover {
 }
 
 #flag-link {
-	font-size: 24px;
+	font-size: 20.15px;
 	color: rgb( 255, 255, 255);
 	font-weight: bold;
 	line-height: 1.419;
@@ -219,7 +226,7 @@ li a:hover {
 
 .text {
 	font-size: 24px;
-	font-family: "BahijTheSansArabic";
+	font-family: "BahijTheSansArabicPlain";
 	color: rgb( 154, 154, 154);
 	line-height: 1.667;
 	text-align: justify;
