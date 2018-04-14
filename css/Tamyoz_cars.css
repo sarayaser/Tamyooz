@@ -1,30 +1,35 @@
-*
-{
+* {
     margin: 0px;
     padding: 0px;
 }
-@font-face{
-    font-family:BahijTheSansArabic;
-    src:url("../fonts/Bahij_TheSansArabic-Plain.ttf");
+
+@font-face {
+    font-family: BahijTheSansArabic;
+    src: url("../fonts/Bahij_TheSansArabic-Plain.ttf");
 }
-body{
-    background-color:#ffffff;
+
+body {
+    background-color: #ffffff;
     width: 1920px;
     direction: 'rtl';
-    font-family:BahijTheSansArabic;
-    
+    font-family: BahijTheSansArabic;
+
 }
-.container{
+
+.container {
     width: 1220px;
-    margin:auto;
+    margin: auto;
 }
-#header{
+
+#header {
     height: 1300px;
-    background-image:url("../images/Vector Smart Object copy 3.jpg");
+    background-image: url("../images/Vector Smart Object copy 3.jpg");
     background-size: 100% 1676px;
     position: relative;
+
 }
-#navbar{
+
+#navbar {
     overflow: hidden;
     font-size: 18px;
     font-family: BahijTheSansArabic;
@@ -32,120 +37,146 @@ body{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-#navbar ul{
-    list-style:none;
-    padding-left:0;
+
+#navbar ul {
+    list-style: none;
+    padding-left: 0;
+    
 }
-#navbar ul li{
-    float:left;
-    padding:10px;
-    top: 40px;
+
+#navbar ul li {
+    float: left;
+    padding: 10px;
 }
-hr{
-    box-sizing:content-box;
-    height:1px;
-    overflow:visible;
-    border:0;
-    background-color:#ffffff;
+
+
+hr {
+    box-sizing: content-box;
+    height: 1px;
+    overflow: visible;
+    border: 0;
+    background-color: #ffffff;
     margin: 0px;
     padding: 0px;
 }
-#advertising_numbers{
+
+.line1{
+    
+    background-color: rgb( 255, 255, 255);
+    position: absolute;
+    width: 1920px;
+    height: 2px;
+    z-index: 116;
+}
+
+#advertising_numbers {
     font-size: 24px;
     font-family: BahijTheSansArabic;
     font-weight: bold;
-    width:288px;
-    height:62px;
-    background-color:#fa325e;
-    color:#ffffff;
+    width: 288px;
+    height: 62px;
+    background-color: #fa325e;
+    color: #ffffff;
     text-align: center;
     border-radius: 6px;
 }
-#btnIcon
-{
+
+#btnIcon {
     width: 35px;
     height: 20px;
     float: right;
     margin-right: 20px;
     margin-top: 7px;
 }
-p{
+
+p {
     display: inline-block;
 }
-#header_middle
-{
+
+#header_middle {
     position: relative;
-    top:-28px;
+    top: -28px;
     z-index: 5;
 }
-.logo{
+
+.logo {
     width: 130px;
     height: 122px;
-    background-color:#ffffff;
+    background-color: #ffffff;
     position: absolute;
     float: right;
-    text-align: center;   
+    text-align: center;
     top: 0px;
     right: 350px;
     border-radius: 8px;
     z-index: 100;
-    
+
 }
-.logo>img
-{
+
+.logo > img {
     width: 83px;
     height: 83px;
-    margin:20px 25px 25px;
+    margin: 20px 25px 25px;
     z-index: 100;
 }
 
-#slider{
+#slider {
     margin-top: 110px;
     margin-bottom: 140px;
 }
-#slider_footer{
+
+#slider_footer {
     text-align: center;
-    color:#ffffff;
+    color: #ffffff;
     font-family: BahijTheSansArabic;
     font-weight: bold;
 }
-#percentage{
+
+#percentage {
     font-size: 60px;
-    color:#fa325e;
+    color: #fa325e;
 }
-#p1{
+
+#p1 {
     font-size: 48px;
-    color:#ffffff;
-    font-family: BahijTheSansArabic;   
+    color: #ffffff;
+    font-family: BahijTheSansArabic;
 }
-#p2{
+
+#p2 {
     font-size: 30px;
     font-weight: normal;
 }
+
 /*////////////////////////////////////////////////////////////////////*/
-#middle{
+
+#middle {
     height: 1180px;
 }
-#middle_header{
+
+#middle_header {
     margin-top: 20px;
     color: #7873c9;
     font-family: BahijTheSansArabic;
     font-size: 18px;
 }
-#pr{
+
+#pr {
     text-align: right;
     float: right;
 }
-#pl{
+
+#pl {
     text-align: left;
 }
-#CarsNumbers{
+
+#CarsNumbers {
     margin-bottom: 60px;
     margin-top: 40px;
     width: 1220px;
     margin-right: 350px;
     margin-left: 350px;
-    height:80px;
+    height: 80px;
     font-size: 18px;
     font-family: BahijTheSansArabic;
     color: rgba(76, 68, 183, 0.4);
@@ -154,11 +185,13 @@ p{
     border: 1px solid #e6e6e6;
     background-color: rgb(255, 255, 255);
 }
-#CarsNumbers table{
+
+#CarsNumbers table {
     border-collapse: collapse;
-    width:1220px;    
+    width: 1220px;
 }
-#CarsNumbers table td{
+
+#CarsNumbers table td {
     text-align: center;
     position: relative;
     height: 80px;
@@ -166,21 +199,93 @@ p{
     font-size: 18px;
 }
 
-.cell:after
-{
-    content : "";
+.cell:after {
+    content: "";
     position: absolute;
-    right    : 0;
-    top  : 30;
-    width  : 2px;
-    height   : 20px;
+    right: 0;
+    top: 30;
+    width: 2px;
+    height: 20px;
     background: #e6e6e6;
 }
 
-#CarsNumbers table td:hover{
+#CarsNumbers table td:hover {
     color: rgb(76, 68, 183);
 }
+
 /*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+.image>img
+{
+    float: right;
+}
+.cardNum
+{
+    position: relative;
+    right: 30px;
+}
+
+#image-cards{
+    font-size: 30px;
+    font-family: BahijTheSansArabic;
+    color: rgb(76, 68, 183);
+    font-weight: bold;
+}
+.CategoryName{
+    text-align: right;
+    font-size: 24px;
+    position: relative;
+    left: 150px;
+    top: 70px;
+    font-weight: bold;
+    color: rgb(248, 43, 71);
+}
+.carCategoryName{
+    text-align: right;
+    font-size: 24px;
+    position: relative;
+    left: 240px;
+    top: 70px;
+    font-weight: bold;
+    color: rgb(248, 43, 71);
+}
+.bronze {
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.09);
+    width: 1220px;
+    height: 260px;
+    margin-right: 350px;
+    margin-left: 350px;
+    position: relative;
+}
+
+.price {
+    /*width: 240px;
+    height: 140px;*/
+    width: 160px;
+    height: 70px;
+    background-color: rgb(248, 43, 71);
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 30px 40px 40px 40px;
+}
+
+.image {
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+#image-cards {
+    font-size: 30px;
+    font-family: BahijTheSansArabic;
+    color: rgb(76, 68, 183);
+    font-weight: bold;
+}
 .bronze{
     margin-bottom: 40px;
     background-color: rgb(255, 255, 255);
@@ -208,32 +313,13 @@ p{
     padding-top: 20px;
     padding-right: 30px;    
 }
-
-.image>img
-{
-    float: right;
-}
-.cardNum
-{
-    position: relative;
-    right: 30px;
-}
-
 #image-cards{
     font-size: 30px;
     font-family: BahijTheSansArabic;
     color: rgb(76, 68, 183);
     font-weight: bold;
 }
-.CategoryName{
-    text-align: right;
-    font-size: 24px;
-    position: relative;
-    left: 150px;
-    top: 70px;
-    font-weight: bold;
-    color: rgb(248, 43, 71);
-}
+
 .bronze_footer{
     width: 1220px;
     height: 120px;
@@ -268,43 +354,52 @@ p{
     font-weight: bold;
     text-decoration: none;
 }
-.border{
-    box-sizing:content-box;
-    height:1px;
+
+.border {
+    box-sizing: content-box;
+    height: 1px;
     width: 1220px;
-    overflow:visible;
-    border:0;
-    background-color:#dbdbd8;
+    overflow: visible;
+    border: 0;
+    background-color: #dbdbd8;
     margin: 0px;
     padding: 0px;
     margin-right: 350px;
     margin-left: 350px;
     margin-bottom: 40px;
 }
+
 /*/////////////////////////////////////////////////////////////////////////////////////////*/
-#bronze1{
+
+#bronze1 {
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.09);
     background-color: #ffffff;
 }
-#price1{
+
+#price1 {
     background-color: #fb95a3;
 }
-#CategoryName1{
+
+#CategoryName1 {
     color: #fb95a3;
 }
-#bronze_footer1{
+
+#bronze_footer1 {
     background-color: #a5a1db;
 }
-#link1{
+
+#link1 {
     background-color: #fb95a3;
 }
-#table1 td{
+
+#table1 td {
     border-right: none;
 }
-#image-cards1{  
+
+#image-cards1 {
     font-size: 30px;
     font-family: BahijTheSansArabic;
-    color:#a5a1db;
+    color: #a5a1db;
     font-weight: bold;
 }
 .bronze_footer table td.wideCell
@@ -314,23 +409,28 @@ p{
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////////*/
-.footer .border{
+
+.footer .border {
     margin-top: 40px;
 }
-.footer{
+
+.footer {
     height: 653px;
-    background-image: url("../images/Vector%20Smart%20Object.png");
+    background-image: url("../images/intro-blogdetails/footer2.JPG");
     background-size: 100% 791px;
     position: relative;
 }
-.footer .container{
-    position: absolute;    
+
+.footer .container {
+    position: absolute;
+    margin-top:
 }
-#plus{
+
+#plus {
     width: 1220px;
-    height:60px;
+    height: 60px;
     text-align: center;
-    top:81px;
+    top: 81px;
     font-size: 24px;
     font-family: BahijTheSansArabic;
     color: rgb(76, 68, 183);
@@ -338,34 +438,84 @@ p{
     margin-right: 670px;
 }
 
-.footer a{
-    color:#f82b47;
+.footer a {
+    color: #f82b47;
     font-size: 24px;
     font-weight: bold;
-    text-decoration: none;    
+    text-decoration: none;
 }
-#logo1{
-   position: absolute;
-    background-color: rgb(255, 255, 255);
-    width: 183px;
-    height: 160px;
-    text-align: center; 
-    font-size: 24px;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+.logoArea {}
+
+#footerLogoArea {
+    width: 186px;
+    height: 187px;
+    display: block;
+    margin-left: 850px;
+    position: relative;
+    top: 90px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#footerLogoArea > .footerlogo {
+    position: relative;
+    width: 87px;
+    height: 85px;
+    margin: 18px 45px;
+}
+
+
+.al7kokTiltel {
+    font-size: 18px;
+    font-family: "BahijTheSansArabic";
+    color: rgb( 76, 68, 183);
     font-weight: bold;
-    right: 35%;
-    left: 65%;
-    bottom: -470px;
-    color: #4c44b7;
-    margin: 100px;
-    padding-bottom: 0px;   
+    text-align: center;
+    margin-top: -10px;
 }
-#media{
-    color:rgb(255, 255, 255);
+
+.tab3naTitel {
+    font-size: 24px;
+    font-family: "BahijTheSansArabic";
+    line-height: 1.378;
+    text-align: left;
+    color: white;
+    margin-left: 895px;
+    margin-top: 140px;
+}
+
+.line3 {
+    position: relative;
+    width: 29px;
+    height: 3px;
+    background-color: #fa325e;
+    margin-top: 10px;
+    margin-left: 940px;
+    border: none;
+}
+
+/* footer Icons style*/
+
+.icons {
     position: absolute;
-    text-align: center; 
+    margin: 0 auto;
+    width: 200px;
+    margin-left: 890px;
+    font-family: FontAwesome;
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+}
+
+ul > li {
+    margin-top: 10px;
     font-size: 24px;
-    right: 51%;
-    left: 49%;  
-    padding-top: 390px;
-    margin-bottom: 0px; 
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    font-family: FontAwesome;
 }
